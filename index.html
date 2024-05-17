@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warner Bros. - Movies</title>
     <link rel="stylesheet" href="styles.css">
@@ -13,7 +12,7 @@
     <header>
         <nav>
             <form action="#" method="GET" class="search-form">
-                <input type="text" name="search" placeholder="Search for games...">
+                <input type="text" name="search" placeholder="Search for movies...">
                 <button type="submit"><i class="fas fa-search"></i>SEARCH</button>
             </form>
         </nav>
@@ -28,42 +27,72 @@
             </ul>
         </nav>
     </header>
-
-    <main id="games-container">
+    <main id="movies-container">
+        
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <section id="featured-games" class="swiper-slide">
-                    <h2>Featured Games</h2>
-                    <div class="game-card">
-                        <img src="images/game1.jpg" alt="Game 1">
-                       
+                <section id="romance" class="swiper-slide">
+                    <h2>Romance</h2>
+                    <div class="movie-card">
+                        <img src="images/movie1.jpg" alt="Movie 1">
                     </div>
-                    <div class="game-card">
-                        <img src="images/game2.jpg" alt="Game 2">
-
+                    <div class="movie-card">
+                        <img src="images/movie2.jpg" alt="Movie 2">
                     </div>
-                    <div class="game-card">
-                        <img src="images/game3.jpg" alt="Game 3">
-                        
-                       
+                    <div class="movie-card">
+                        <img src="images/movie3.jpg" alt="Movie 3">
                     </div>
-                    <div class="game-card">
-                        <img src="images/game4.jpg" alt="Game 4">
-                       
+                    <div class="movie-card">
+                        <img src="images/movie4.jpg" alt="Movie 4">
+                    </div>
+                </section>
+                <section id="action" class="swiper-slide">
+                    <h2>Action</h2>
+                    <div class="movie-card">
+                        <img src="images/movie5.jpg" alt="Movie 5">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie6.jpg" alt="Movie 6">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie7.jpg" alt="Movie 7">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie8.jpg" alt="Movie 8">
+                    </div>
+                </section>
+                <section id="comedy" class="swiper-slide">
+                    <h2>Comedy</h2>
+                    <div class="movie-card">
+                        <img src="images/movie9.jpg" alt="Movie 9">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie10.jpg" alt="Movie 10">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie11.jpg" alt="Movie 11">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/releasemovie 3.jpg" alt="Movie 12">
+                    </div>
+                </section>
+                <section id="horror" class="swiper-slide">
+                    <h2>Horror</h2>
+                    <div class="movie-card">
+                        <img src="images/movie13.jpg" alt="Movie 13">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/releasemovie 1.jpg" alt="Movie 14">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie15.jpg" alt="Movie 15">
+                    </div>
+                    <div class="movie-card">
+                        <img src="images/movie16.jpg" alt="Movie 16">
                     </div>
                 </section>
             </div>
             <!-- Add pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </main>
-
- 
-
-     <!-- Add pagination -->
             <div class="swiper-pagination"></div>
             <!-- Add navigation buttons -->
             <div class="swiper-button-prev"></div>
@@ -89,7 +118,6 @@
                 clickable: true,
             },
         });
-
     </script>
 </body>
 </html>
